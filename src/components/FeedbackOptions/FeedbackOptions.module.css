@@ -1,0 +1,13 @@
+.button {
+  padding: 15px;
+  color: rgb(246, 209, 190);
+  background-color: #435ccd;
+  font-size: 36px;
+  min-width: 120px;
+  border: none;
+  border-radius: 10px;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
